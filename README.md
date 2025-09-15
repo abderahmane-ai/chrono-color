@@ -50,19 +50,6 @@ uv sync
 pip install -e .
 ```
 
-### 🎨 Colorize Your First Photo
-
-```python
-from chronocolor import ChronoColorModel
-
-# Load the trained model
-model = ChronoColorModel.from_pretrained("best_model.pth")
-
-# Colorize an image
-colored_image = model.colorize("path/to/your/bw_photo.jpg")
-colored_image.save("colorized_result.png")
-```
-
 ## 📊 Dataset
 
 ChronoColor is trained on the **Historical Color Database** containing:
