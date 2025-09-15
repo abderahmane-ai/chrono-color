@@ -1,0 +1,25 @@
+[project]
+name = "chronocolor"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=4.0.0",
+    "matplotlib>=3.10.6",
+    "mlcroissant>=1.0.22",
+    "modal>=1.1.4",
+    "notebook>=7.4.5",
+    "numpy>=2.3.3",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.3.0",
+    "rich>=14.1.0",
+    "scikit-image>=0.25.2",
+    "sgmllib3k>=1.0.0",
+    "tensorboard>=2.20.0",
+    "torch>=2.8.0",
+    "torchaudio>=2.8.0",
+    "torchmetrics>=1.8.2",
+    "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
+    "transforms>=0.2.1",
+]
